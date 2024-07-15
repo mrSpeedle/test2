@@ -1,0 +1,101 @@
+[33mcommit a41c57ea29ab6a557b5080143c7b5eeb72357d37[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sion <mr.speedle@yahoo.cl>
+Date:   Fri Jul 12 15:39:08 2024 -0400
+
+    Desafío Evaluado
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77acc49[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="UTF-8">[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m  <meta http-equiv="X-UA-Compatible" content="ie=edge">[m
+[32m+[m[32m  <title>Desafío Branching</title>[m
+[32m+[m[32m  <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono" rel="stylesheet">[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <div class="container">[m
+[32m+[m[32m    <h1>Ir a Github</h1>[m
+[32m+[m[32m    <a href="https://github.com/">[m
+[32m+[m[32m      <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="octocat">[m
+[32m+[m[32m    </a>[m
+[32m+[m[32m    <button type="button" class="btn">[m
+[32m+[m[32m      <a href="https://github.com/" target="_blank">Click aquí para ir a GitHub!</a>[m
+[32m+[m[32m    </button>[m
+[32m+[m[32m  </div>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..204da60[m
+[1m--- /dev/null[m
+[1m+++ b/style.css[m
+[36m@@ -0,0 +1,59 @@[m
+[32m+[m[32mbody {[m
+[32m+[m[32m  background: #342E37;[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m.container {[m
+[32m+[m[32m  padding-top: 30px;[m
+[32m+[m[32m}[m[41m [m
+[32m+[m[41m  [m
+[32m+[m[32mh1 {[m
+[32m+[m[32m  color: #fff;[m
+[32m+[m[32m  font-family: 'Space Mono', monospace;[m
+[32m+[m[32m  font-size: 3rem;[m
+[32m+[m[32m  text-align: center;[m
+[32m+[m[32m  font-weight: 300;[m
+[32m+[m[32m}[m
+[32m+[m[41m  [m
+[32m+[m[32mimg {[m
+[32m+[m[32m  max-width: 40%;[m
+[32m+[m[32m  padding: 20px;[m
+[32m+[m[32m  display: block;[m
+[32m+[m[32m  margin: 0 auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mform {[m
+[32m+[m[32m  padding: 30px;[m
+[32m+[m[32m}[m
+[32m+[m[41m  [m
+[32m+[m[32m.btn {[m
+[32m+[m[32m  outline: none;[m
+[32m+[m[32m  border: none;[m
+[32m+[m[32m  cursor: pointer;[m
+[32m+[m[32m  display: block;[m
+[32m+[m[32m  position: relative;[m
+[32m+[m[32m  background-color: #676264;[m
+[32m+[m[32m  padding: 20px 80px;[m
+[32m+[m[32m  margin: 0 auto;[m
+[32m+[m[32m  border-radius: 20px;[m
+[32m+[m[32m  box-shadow: 0 6px #2E282A;[m
+[32m+[m[32m}[m
+[32m+[m[41m  [m
+[32m+[m[32m.btn a {[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m  font-family: 'Open Sans', sans-serif;[m
+[32m+[m[32m  font-size: 1rem;[m
+[32m+[m[32m  font-weight: 300;[m
+[32m+[m[32m  text-transform: uppercase;[m
+[32m+[m[32m  text-decoration: none;[m
+[32m+[m[32m  letter-spacing: 2px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn:hover {[m
+[32m+[m[32m  box-shadow: 0 4px #2E282A;[m
+[32m+[m[32m  top: 2px;[m[41m [m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn:active {[m
+[32m+[m[32m  box-shadow: none;[m
+[32m+[m[32m  top: 6px;[m[41m [m
+[32m+[m[32m}[m[41m [m
+\ No newline at end of file[m
